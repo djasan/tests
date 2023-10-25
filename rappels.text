@@ -1,0 +1,92 @@
+==
+	
+
+Est égal à
+
+>
+	
+
+Est supérieur à
+
+<
+	
+
+Est inférieur à
+
+>=
+	
+
+Est supérieur ou égal à
+
+<=
+	
+
+Est inférieur ou égal à
+
+!=
+	
+
+Est différent de
+
+
+
+Il y a deux symboles « égal » ( == ) sur la première ligne.
+
+Il ne faut pas confondre ça avec le simple =  (que je vous ai appris dans le chapitre sur les variables).
+
+Ici, le double égal sert à tester l'égalité, à dire « Si c'est égal à… ». Dans les conditions, on utilisera toujours le double égal ( ==  ).
+
+Les symboles « supérieur » ( >  ) et « inférieur » ( <  ) sont situés en bas à gauche de votre clavier.
+
+Ce qu'on va essayer de faire, c'est de poser plusieurs conditions à la fois. Pour cela, on aura besoin de nouveaux mots-clés. Voici les principaux à connaître :
+
+Mot-clé
+	AND
+	
+
+Et
+
+Signification
+	
+&&
+
+OR
+
+Symbole équivalent
+
+Ou
+	
+
+||
+
+	//*****************************************//
+
+    Bon, vous vous en doutez : je vais vous analyser la ligne du for uniquement (le reste n'a pas changé).
+
+Après le mot for  , il y a des parenthèses qui contiennent trois éléments, séparés par des points-virgules ;  :
+
+    Le premier sert à l'initialisation. C'est la valeur que l'on donne au départ à la variable (ici, elle vaut 0).
+
+    Le second, c'est la condition. Comme pour le while : tant que la condition est remplie, la boucle est réexécutée. Dès que la condition ne l'est plus, on en sort.
+
+    Enfin, le troisième c'est l'incrémentation. Cela permet d'ajouter 1 à la variable à chaque tour de boucle.
+
+Les deux derniers codes donnent donc exactement le même résultat :
+
+    le for fait la même chose que le  while  ;
+
+    … mais il rassemble sur une seule ligne tout ce qu'il faut savoir sur le fonctionnement de la boucle.
+
+Comment savoir lequel choisir ? while  ou for ?
+
+while  est plus simple et plus flexible : on peut faire tous les types de boucles avec, mais on peut oublier de faire certaines étapes, comme l'incrémentation de la variable.
+
+for  est bien adapté quand on doit compter le nombre de fois que l'on répète les instructions, et il permet de ne pas oublier de faire l'incrémentation pour augmenter la valeur de la variable !
+
+Si vous hésitez entre les deux, il suffit simplement de vous poser la question suivante : « Est-ce que je sais d'avance combien de fois je veux que mes instructions soient répétées ? ».
+
+Si la réponse est oui, alors la boucle for  est tout indiquée.
+
+Sinon, alors il vaut mieux utiliser la boucle while .
+
+	//*********************************//
