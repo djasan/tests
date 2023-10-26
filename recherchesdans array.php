@@ -126,18 +126,18 @@ if (in_array('Arlette Chabot', $users))
     echo 'Arlette fait bien partie des utilisateurs enregistrés !';
 
 }
+//
+///$ php exemple.php 
+////Mathieu fait bien partie des utilisateurs enregistrés !
 
-$ php exemple.php 
-Mathieu fait bien partie des utilisateurs enregistrés !
+////On ne voit que le message pour Mathieu, car Arlette ne fait pas partie des utilisateurs enregistrés.
+//Récupérez la clé d'une valeur dans un tableau avec array_search
 
-On ne voit que le message pour Mathieu, car Arlette ne fait pas partie des utilisateurs enregistrés.
-Récupérez la clé d'une valeur dans un tableau avec array_search
+//array_search fonctionne comme in_array : il travaille sur les valeurs d'un tableau.
 
-array_search fonctionne comme in_array : il travaille sur les valeurs d'un tableau.
+//Voici ce que renvoie la fonction :
 
-Voici ce que renvoie la fonction :
-
-    Si elle a trouvé la valeur, array_search renvoie la clé correspondante (dans le cas d'un tableau numéroté, la clé sera un numéro ; dans le cas d'un tableau associatif, la clé sera un nom).
+    /*Si elle a trouvé la valeur, array_search renvoie la clé correspondante (dans le cas d'un tableau numéroté, la clé sera un numéro ; dans le cas d'un tableau associatif, la clé sera un nom).
 
     Si elle n'a pas trouvé la valeur, array_search renvoie false  .
 
@@ -284,5 +284,5 @@ $recipes = [
 </html>
 
 
-Cette capture d'écran montre l'affichage de la liste des recettes en fonction du statut is_enabled sur la page web. On peut voir par exemple les recettes Cassoulet et Escalope milanaise car leur statut est sur
-Affichage de la liste des recettes en fonction du statut "is_enabled" 
+///Cette capture d'écran montre l'affichage de la liste des recettes en fonction du statut is_enabled sur la page web. On peut voir par exemple les recettes Cassoulet et Escalope milanaise car leur statut est sur
+//Affichage de la liste des recettes en fonction du statut "is_enabled" 
