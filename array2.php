@@ -117,3 +117,4 @@ vous êtes obligé d'utiliser les crochets
 pour indiquer dans quelle « case » 
 on doit aller chercher l'information ; 
 sinon PHP ne sait pas quoi récupérer.
+jj
